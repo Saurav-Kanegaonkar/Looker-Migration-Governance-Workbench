@@ -1,0 +1,37 @@
+workbook_id,workbook_name,domain,business_owner,audience,criticality,migration_lane,monthly_views,stakeholder_count,dashboard_tabs,tableau_calc_fields,data_sources,custom_sql_blocks,extract_age_hours,uncertified_metrics,row_level_security,tableau_baseline_load_seconds
+WB001,Finance Operations Campaign pacing,Finance Operations,Client Reporting,Finance,Tier 1,Wave 2,1485,19,10,25,5,6,71,1,None,18.4
+WB002,Audience Strategy Commerce conversion,Audience Strategy,Commerce Analytics,Executive,Tier 2,Hold for redesign,3305,7,13,41,2,3,48,7,None,15.8
+WB003,Client Performance Campaign pacing,Client Performance,Client Reporting,Activation team,Tier 2,Wave 2,7998,22,6,23,8,0,51,9,None,5.6
+WB004,Commerce Retail media performance,Commerce,Client Reporting,Executive,Tier 1,Wave 1,4268,27,6,24,2,1,42,6,User attribute,11.6
+WB005,Retail Media Client QBR packet,Retail Media,Commerce Analytics,Client partner,Tier 3,Wave 3,2133,17,18,34,5,6,64,3,Region filter,14.5
+WB006,Retail Media CRM lifecycle,Retail Media,CRM Analytics,Finance,Tier 1,Wave 3,5254,46,6,20,7,3,43,3,User attribute,10.8
+WB007,Commerce Digital shelf availability,Commerce,Media Analytics,Executive,Tier 1,Wave 3,4691,33,3,15,8,0,79,6,Client filter,4.0
+WB008,Retail Media Client QBR packet,Retail Media,Client Reporting,Analyst,Tier 1,Wave 1,1898,18,8,41,8,3,68,12,User attribute,6.6
+WB009,CRM and Loyalty Finance reconciliation,CRM and Loyalty,Media Analytics,Client partner,Tier 2,Wave 1,8163,15,6,23,7,0,89,5,User attribute,8.4
+WB010,Client Performance Client QBR packet,Client Performance,CRM Analytics,Finance,Tier 1,Wave 3,3121,30,9,9,3,5,45,2,Region filter,12.3
+WB011,Commerce CRM lifecycle,Commerce,BI Platform,Finance,Tier 2,Wave 2,2945,13,14,36,4,5,51,9,None,17.3
+WB012,Retail Media CRM lifecycle,Retail Media,Media Analytics,Finance,Tier 3,Wave 3,5536,11,6,43,8,0,58,4,Client filter,4.6
+WB013,CRM and Loyalty Campaign pacing,CRM and Loyalty,Media Analytics,Client partner,Tier 1,Wave 1,6893,19,15,19,9,7,53,4,Client filter,21.0
+WB014,Retail Media Commerce conversion,Retail Media,Commerce Analytics,Activation team,Tier 2,Wave 2,1689,15,15,28,7,1,85,8,Region filter,22.3
+WB015,Client Performance Client QBR packet,Client Performance,CRM Analytics,Activation team,Tier 2,Wave 1,4155,25,13,19,9,7,53,9,Client filter,20.3
+WB016,Digital Shelf Retail media performance,Digital Shelf,Commerce Analytics,Analyst,Tier 1,Wave 2,4068,46,6,40,6,3,39,8,Client filter,15.0
+WB017,Client Performance Commerce conversion,Client Performance,Commerce Analytics,Analyst,Tier 2,Wave 3,8667,34,4,35,9,5,68,11,User attribute,10.8
+WB018,Client Performance Client QBR packet,Client Performance,CRM Analytics,Executive,Tier 3,Wave 3,4012,11,6,19,3,4,26,9,Region filter,13.6
+WB019,Retail Media Finance reconciliation,Retail Media,CRM Analytics,Analyst,Tier 3,Wave 3,5078,19,10,31,6,1,27,10,Client filter,8.7
+WB020,Digital Shelf Executive scorecard,Digital Shelf,Client Reporting,Finance,Tier 3,Wave 1,2706,26,16,20,9,4,47,3,None,13.7
+WB021,Commerce Retail media performance,Commerce,Media Analytics,Executive,Tier 3,Wave 2,1807,14,10,16,4,7,33,6,Client filter,13.9
+WB022,CRM and Loyalty CRM lifecycle,CRM and Loyalty,CRM Analytics,Client partner,Tier 3,Hold for redesign,3501,7,10,26,2,1,32,7,None,6.7
+WB023,CRM and Loyalty Retail media performance,CRM and Loyalty,Commerce Analytics,Executive,Tier 2,Wave 2,2816,19,17,27,5,3,27,8,Client filter,19.1
+WB024,Digital Shelf Finance reconciliation,Digital Shelf,CRM Analytics,Analyst,Tier 1,Wave 2,2854,36,7,25,8,0,87,3,User attribute,10.3
+WB025,CRM and Loyalty Campaign pacing,CRM and Loyalty,Media Analytics,Analyst,Tier 2,Wave 1,2907,27,4,14,2,6,55,2,User attribute,16.9
+WB026,Client Performance Finance reconciliation,Client Performance,Client Reporting,Analyst,Tier 3,Hold for redesign,3340,8,6,8,8,1,32,1,Region filter,10.5
+WB027,Finance Operations Digital shelf availability,Finance Operations,Media Analytics,Activation team,Tier 3,Hold for redesign,1534,28,9,24,6,6,32,0,Region filter,13.0
+WB028,Finance Operations Campaign pacing,Finance Operations,Commerce Analytics,Executive,Tier 2,Wave 1,2672,16,6,9,2,4,17,8,User attribute,11.3
+WB029,Digital Shelf Digital shelf availability,Digital Shelf,Media Analytics,Activation team,Tier 2,Wave 2,584,33,4,32,4,7,22,11,User attribute,16.1
+WB030,Finance Operations Commerce conversion,Finance Operations,BI Platform,Executive,Tier 2,Wave 2,3395,22,14,28,3,4,55,8,User attribute,19.1
+WB031,Finance Operations CRM lifecycle,Finance Operations,BI Platform,Client partner,Tier 3,Wave 1,3265,26,9,35,3,2,57,4,None,9.0
+WB032,Commerce Retail media performance,Commerce,Media Analytics,Executive,Tier 2,Wave 2,2907,11,7,42,9,7,57,5,None,15.1
+WB033,Audience Strategy Commerce conversion,Audience Strategy,Client Reporting,Analyst,Tier 2,Wave 3,6143,21,4,19,9,1,84,1,User attribute,5.9
+WB034,Client Performance Finance reconciliation,Client Performance,BI Platform,Client partner,Tier 3,Wave 2,7286,31,17,29,9,1,23,10,Region filter,21.8
+WB035,CRM and Loyalty Retail media performance,CRM and Loyalty,Client Reporting,Finance,Tier 2,Wave 1,2282,15,13,14,9,0,52,5,User attribute,17.3
+WB036,Audience Strategy Campaign pacing,Audience Strategy,Commerce Analytics,Finance,Tier 1,Wave 1,4057,24,17,26,3,5,64,3,None,11.4

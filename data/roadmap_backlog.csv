@@ -1,0 +1,37 @@
+initiative_id,workbook_id,epic,user_story,business_impact,effort_points,release_target,status
+RM001,WB001,Performance tuning,"As a finance user, I need trusted finance operations metrics in Looker.",Low,5,Sprint 2,Blocked
+RM002,WB002,Security review,"As a client partner user, I need trusted audience strategy metrics in Looker.",High,3,Sprint 2,Ready
+RM003,WB003,Performance tuning,"As a activation team user, I need trusted client performance metrics in Looker.",Low,13,Sprint 3,Ready
+RM004,WB004,Metric certification,"As a finance user, I need trusted commerce metrics in Looker.",Medium,13,Sprint 1,Blocked
+RM005,WB005,Security review,"As a activation team user, I need trusted retail media metrics in Looker.",Medium,13,Sprint 3,Blocked
+RM006,WB006,Training and adoption,"As a activation team user, I need trusted retail media metrics in Looker.",Low,13,Sprint 1,In review
+RM007,WB007,Metric certification,"As a executive user, I need trusted commerce metrics in Looker.",Medium,3,Sprint 3,Blocked
+RM008,WB008,Training and adoption,"As a finance user, I need trusted retail media metrics in Looker.",Medium,8,Sprint 1,Blocked
+RM009,WB009,Performance tuning,"As a activation team user, I need trusted crm and loyalty metrics in Looker.",Medium,3,Sprint 2,In discovery
+RM010,WB010,Metric certification,"As a analyst user, I need trusted client performance metrics in Looker.",High,8,Sprint 1,In discovery
+RM011,WB011,Training and adoption,"As a analyst user, I need trusted commerce metrics in Looker.",Low,3,Sprint 1,Ready
+RM012,WB012,Explore redesign,"As a finance user, I need trusted retail media metrics in Looker.",Medium,13,Sprint 3,Blocked
+RM013,WB013,Explore redesign,"As a analyst user, I need trusted crm and loyalty metrics in Looker.",Medium,13,Migration wave backlog,In discovery
+RM014,WB014,Metric certification,"As a client partner user, I need trusted retail media metrics in Looker.",Low,5,Sprint 3,In review
+RM015,WB015,Performance tuning,"As a activation team user, I need trusted client performance metrics in Looker.",Low,5,Sprint 1,Ready
+RM016,WB016,Security review,"As a client partner user, I need trusted digital shelf metrics in Looker.",Medium,8,Sprint 3,Ready
+RM017,WB017,Metric certification,"As a executive user, I need trusted client performance metrics in Looker.",Low,8,Sprint 3,Ready
+RM018,WB018,Explore redesign,"As a executive user, I need trusted client performance metrics in Looker.",High,13,Sprint 3,In review
+RM019,WB019,Training and adoption,"As a client partner user, I need trusted retail media metrics in Looker.",Medium,5,Sprint 2,In review
+RM020,WB020,Performance tuning,"As a finance user, I need trusted digital shelf metrics in Looker.",Low,3,Sprint 2,In review
+RM021,WB021,Security review,"As a finance user, I need trusted commerce metrics in Looker.",Low,8,Sprint 1,Blocked
+RM022,WB022,Performance tuning,"As a executive user, I need trusted crm and loyalty metrics in Looker.",Low,13,Sprint 1,Blocked
+RM023,WB023,Security review,"As a finance user, I need trusted crm and loyalty metrics in Looker.",Low,5,Sprint 3,In review
+RM024,WB024,Metric certification,"As a activation team user, I need trusted digital shelf metrics in Looker.",Medium,3,Sprint 3,In discovery
+RM025,WB025,Metric certification,"As a executive user, I need trusted crm and loyalty metrics in Looker.",Medium,13,Sprint 3,Blocked
+RM026,WB026,Performance tuning,"As a executive user, I need trusted client performance metrics in Looker.",Medium,3,Sprint 3,Blocked
+RM027,WB027,Metric certification,"As a analyst user, I need trusted finance operations metrics in Looker.",Low,8,Sprint 1,Ready
+RM028,WB028,Security review,"As a finance user, I need trusted finance operations metrics in Looker.",Low,3,Migration wave backlog,In discovery
+RM029,WB029,Explore redesign,"As a client partner user, I need trusted digital shelf metrics in Looker.",High,8,Sprint 3,In discovery
+RM030,WB030,Explore redesign,"As a finance user, I need trusted finance operations metrics in Looker.",Low,3,Sprint 1,In discovery
+RM031,WB031,Metric certification,"As a executive user, I need trusted finance operations metrics in Looker.",High,3,Migration wave backlog,In discovery
+RM032,WB032,Training and adoption,"As a client partner user, I need trusted commerce metrics in Looker.",High,3,Sprint 2,In review
+RM033,WB033,Metric certification,"As a finance user, I need trusted audience strategy metrics in Looker.",Medium,8,Migration wave backlog,In review
+RM034,WB034,Security review,"As a executive user, I need trusted client performance metrics in Looker.",Medium,3,Sprint 2,Ready
+RM035,WB035,Performance tuning,"As a activation team user, I need trusted crm and loyalty metrics in Looker.",Low,8,Migration wave backlog,In discovery
+RM036,WB036,Explore redesign,"As a finance user, I need trusted audience strategy metrics in Looker.",Medium,8,Migration wave backlog,Blocked

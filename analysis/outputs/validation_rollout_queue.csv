@@ -1,0 +1,37 @@
+workbook_id,workbook_name,failed_tests,tolerance_reviews,parity_pass_rate,avg_tableau_load_seconds,avg_looker_load_seconds,load_improvement_pct,avg_cache_hit_rate_pct,training_status,adoption_status,open_incidents,cutover_readiness,roadmap_items
+WB028,Finance Operations Campaign pacing,5,0,16.7,11.3,8.5,25.2,81.1,Complete,Pilot,3,Needs owner signoff,1
+WB030,Finance Operations Commerce conversion,4,0,33.3,19.1,14.6,23.7,66.1,Scheduled,Ready,3,Ready,1
+WB035,CRM and Loyalty Retail media performance,4,0,33.3,17.3,12.5,27.8,79.9,Complete,Ready,3,Needs owner signoff,1
+WB019,Retail Media Finance reconciliation,4,0,33.3,8.7,5.1,40.9,70.6,Not started,Ready,2,Ready,1
+WB036,Audience Strategy Campaign pacing,3,1,33.3,11.4,8.3,27.2,65.3,Scheduled,Pilot,6,Needs owner signoff,1
+WB029,Digital Shelf Digital shelf availability,3,3,0.0,16.1,11.2,30.5,78.1,Scheduled,At risk,5,Blocked,1
+WB002,Audience Strategy Commerce conversion,3,0,50.0,15.8,10.6,33.1,74.8,Scheduled,Pilot,5,Needs owner signoff,1
+WB015,Client Performance Client QBR packet,3,0,50.0,20.3,16.0,21.0,76.9,Complete,Pilot,5,Needs owner signoff,1
+WB001,Finance Operations Campaign pacing,3,0,50.0,18.4,10.6,42.5,56.6,Not started,Ready,4,Ready,1
+WB008,Retail Media Client QBR packet,3,0,50.0,6.6,4.3,35.2,82.8,Scheduled,Pilot,4,Needs owner signoff,1
+WB032,Commerce Retail media performance,2,2,33.3,15.1,10.7,29.1,68.9,Scheduled,Ready,7,Ready,1
+WB014,Retail Media Commerce conversion,2,1,50.0,22.3,16.9,24.1,72.0,Complete,Pilot,6,Needs owner signoff,1
+WB005,Retail Media Client QBR packet,2,1,50.0,14.5,10.1,30.2,73.4,Scheduled,Ready,5,Needs owner signoff,1
+WB020,Digital Shelf Executive scorecard,2,0,66.7,13.7,9.9,27.6,68.7,Complete,Pilot,5,Ready,1
+WB023,CRM and Loyalty Retail media performance,2,1,50.0,19.1,13.2,30.8,64.4,Complete,At risk,4,Blocked,1
+WB003,Client Performance Campaign pacing,2,0,66.7,5.6,4.2,25.9,78.4,Complete,Ready,3,Ready,1
+WB033,Audience Strategy Commerce conversion,2,1,50.0,5.9,4.5,23.9,67.8,Complete,Ready,1,Needs owner signoff,1
+WB027,Finance Operations Digital shelf availability,2,0,66.7,13.0,8.8,32.4,72.8,Scheduled,Ready,0,Ready,1
+WB004,Commerce Retail media performance,1,1,66.7,11.6,7.7,33.8,65.8,Complete,At risk,8,Needs owner signoff,1
+WB016,Digital Shelf Retail media performance,1,2,50.0,15.0,10.2,31.9,66.2,Scheduled,Pilot,7,Blocked,1
+WB017,Client Performance Commerce conversion,1,0,83.3,10.8,7.2,33.3,78.9,Not started,At risk,7,Needs owner signoff,1
+WB022,CRM and Loyalty CRM lifecycle,1,0,83.3,6.7,4.5,32.8,83.3,Complete,Ready,7,Needs owner signoff,1
+WB026,Client Performance Finance reconciliation,1,2,50.0,10.5,6.5,38.3,73.1,Scheduled,Ready,5,Needs owner signoff,1
+WB034,Client Performance Finance reconciliation,1,2,50.0,21.8,14.7,32.6,65.6,Scheduled,Ready,5,Ready,1
+WB025,CRM and Loyalty Campaign pacing,1,1,66.7,16.9,12.1,28.5,81.2,Not started,Pilot,4,Needs owner signoff,1
+WB009,CRM and Loyalty Finance reconciliation,1,0,83.3,8.4,5.7,32.6,59.4,Scheduled,Pilot,4,Ready,1
+WB024,Digital Shelf Finance reconciliation,1,2,50.0,10.3,7.3,28.9,72.7,Scheduled,Ready,3,Blocked,1
+WB018,Client Performance Client QBR packet,1,1,66.7,13.6,9.5,30.3,80.4,Scheduled,Pilot,2,Ready,1
+WB021,Commerce Retail media performance,1,1,66.7,13.9,9.9,28.5,67.1,Not started,Ready,2,Needs owner signoff,1
+WB013,CRM and Loyalty Campaign pacing,0,0,100.0,21.0,14.9,29.1,69.1,Scheduled,Pilot,8,Ready,1
+WB011,Commerce CRM lifecycle,0,2,66.7,17.3,10.6,38.7,66.9,Complete,Ready,7,Ready,1
+WB010,Client Performance Client QBR packet,0,2,66.7,12.3,8.8,28.2,66.7,Scheduled,Ready,5,Needs owner signoff,1
+WB012,Retail Media CRM lifecycle,0,2,66.7,4.6,3.3,28.8,68.3,Scheduled,Pilot,5,Needs owner signoff,1
+WB006,Retail Media CRM lifecycle,0,1,83.3,10.8,7.1,34.0,62.7,Scheduled,Ready,3,Ready,1
+WB007,Commerce Digital shelf availability,0,1,83.3,4.0,2.6,34.1,69.8,Scheduled,Ready,3,Needs owner signoff,1
+WB031,Finance Operations CRM lifecycle,0,2,66.7,9.0,6.5,27.9,74.1,Not started,At risk,2,Ready,1

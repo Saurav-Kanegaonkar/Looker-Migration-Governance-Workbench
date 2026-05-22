@@ -1,0 +1,37 @@
+workbook_id,model_name,explore_name,primary_view,join_count,join_pattern,pdt_strategy,datagroup,cache_policy,required_filter,liquid_parameter,git_review_status,open_review_comments,style_guide_findings
+WB001,agency_analytics,finance_operations,finance_operations_fact,6,many_to_one,Incremental PDT,commerce_hourly,max_cache_age 24 hours,reporting_month,currency_selector,Approved,6,2
+WB002,agency_analytics,audience_strategy,audience_strategy_fact,7,many_to_one,PDT,commerce_hourly,persist_with datagroup,reporting_month,market_rollup,Approved,0,0
+WB003,agency_analytics,client_performance,client_performance_fact,3,fanout risk review,PDT,commerce_hourly,persist_with datagroup,reporting_month,channel_grouping,Approved,4,4
+WB004,agency_analytics,commerce,commerce_fact,10,fanout risk review,Aggregate awareness,crm_daily,max_cache_age 24 hours,brand_market,currency_selector,Approved,3,5
+WB005,agency_analytics,retail_media,retail_media_fact,3,fanout risk review,Incremental PDT,commerce_hourly,persist_with datagroup,client_id,channel_grouping,Blocked,9,3
+WB006,agency_analytics,retail_media,retail_media_fact,8,one_to_many review,PDT,finance_daily,max_cache_age 4 hours,client_id,currency_selector,Open comments,6,5
+WB007,agency_analytics,commerce,commerce_fact,10,many_to_one,PDT,finance_daily,max_cache_age 4 hours,none,market_rollup,Approved,8,5
+WB008,agency_analytics,retail_media,retail_media_fact,7,many_to_one,Incremental PDT,media_intraday,persist_with datagroup,reporting_month,channel_grouping,Needs review,2,5
+WB009,agency_analytics,crm_loyalty,crm_loyalty_fact,2,many_to_one,Aggregate awareness,client_weekly,max_cache_age 4 hours,none,none,Needs review,6,5
+WB010,agency_analytics,client_performance,client_performance_fact,3,one_to_many review,Incremental PDT,finance_daily,persist_with datagroup,none,none,Needs review,6,2
+WB011,agency_analytics,commerce,commerce_fact,2,fanout risk review,None,client_weekly,max_cache_age 24 hours,brand_market,market_rollup,Open comments,9,1
+WB012,agency_analytics,retail_media,retail_media_fact,4,many_to_one,Incremental PDT,finance_daily,max_cache_age 24 hours,none,currency_selector,Approved,4,1
+WB013,agency_analytics,crm_loyalty,crm_loyalty_fact,11,one_to_many review,None,finance_daily,persist_with datagroup,none,market_rollup,Needs review,1,0
+WB014,agency_analytics,retail_media,retail_media_fact,2,fanout risk review,Incremental PDT,finance_daily,max_cache_age 4 hours,reporting_month,channel_grouping,Approved,8,2
+WB015,agency_analytics,client_performance,client_performance_fact,2,many_to_one,Incremental PDT,client_weekly,persist_with datagroup,none,channel_grouping,Needs review,7,0
+WB016,agency_analytics,digital_shelf,digital_shelf_fact,2,many_to_one,None,media_intraday,max_cache_age 24 hours,none,currency_selector,Approved,4,3
+WB017,agency_analytics,client_performance,client_performance_fact,7,one_to_many review,Incremental PDT,client_weekly,persist_with datagroup,client_id,market_rollup,Needs review,3,5
+WB018,agency_analytics,client_performance,client_performance_fact,7,many_to_one,PDT,commerce_hourly,persist_with datagroup,reporting_month,market_rollup,Blocked,9,0
+WB019,agency_analytics,retail_media,retail_media_fact,8,fanout risk review,None,media_intraday,max_cache_age 24 hours,none,market_rollup,Approved,4,1
+WB020,agency_analytics,digital_shelf,digital_shelf_fact,4,one_to_many review,PDT,crm_daily,max_cache_age 24 hours,reporting_month,market_rollup,Needs review,7,2
+WB021,agency_analytics,commerce,commerce_fact,11,many_to_one,PDT,media_intraday,max_cache_age 4 hours,none,channel_grouping,Approved,0,0
+WB022,agency_analytics,crm_loyalty,crm_loyalty_fact,11,many_to_one,None,finance_daily,persist_with datagroup,brand_market,market_rollup,Needs review,1,0
+WB023,agency_analytics,crm_loyalty,crm_loyalty_fact,7,one_to_many review,PDT,media_intraday,max_cache_age 4 hours,none,channel_grouping,Needs review,3,0
+WB024,agency_analytics,digital_shelf,digital_shelf_fact,11,many_to_one,None,media_intraday,max_cache_age 24 hours,none,channel_grouping,Needs review,2,3
+WB025,agency_analytics,crm_loyalty,crm_loyalty_fact,2,many_to_one,None,client_weekly,max_cache_age 4 hours,reporting_month,channel_grouping,Approved,1,3
+WB026,agency_analytics,client_performance,client_performance_fact,8,fanout risk review,PDT,commerce_hourly,persist_with datagroup,none,channel_grouping,Needs review,0,4
+WB027,agency_analytics,finance_operations,finance_operations_fact,3,one_to_many review,Aggregate awareness,client_weekly,max_cache_age 24 hours,reporting_month,currency_selector,Blocked,9,4
+WB028,agency_analytics,finance_operations,finance_operations_fact,3,one_to_many review,None,client_weekly,persist_with datagroup,reporting_month,none,Open comments,7,2
+WB029,agency_analytics,digital_shelf,digital_shelf_fact,7,fanout risk review,PDT,commerce_hourly,persist_with datagroup,none,channel_grouping,Open comments,10,0
+WB030,agency_analytics,finance_operations,finance_operations_fact,11,many_to_one,Aggregate awareness,media_intraday,max_cache_age 24 hours,reporting_month,channel_grouping,Needs review,7,1
+WB031,agency_analytics,finance_operations,finance_operations_fact,4,one_to_many review,PDT,client_weekly,max_cache_age 4 hours,brand_market,currency_selector,Blocked,11,6
+WB032,agency_analytics,commerce,commerce_fact,6,fanout risk review,PDT,client_weekly,max_cache_age 24 hours,reporting_month,none,Open comments,9,2
+WB033,agency_analytics,audience_strategy,audience_strategy_fact,11,one_to_many review,PDT,finance_daily,max_cache_age 4 hours,none,market_rollup,Blocked,4,5
+WB034,agency_analytics,client_performance,client_performance_fact,3,many_to_one,None,crm_daily,max_cache_age 24 hours,client_id,none,Approved,0,6
+WB035,agency_analytics,crm_loyalty,crm_loyalty_fact,9,fanout risk review,PDT,commerce_hourly,persist_with datagroup,client_id,currency_selector,Blocked,9,4
+WB036,agency_analytics,audience_strategy,audience_strategy_fact,5,one_to_many review,Incremental PDT,commerce_hourly,max_cache_age 24 hours,none,currency_selector,Needs review,1,6

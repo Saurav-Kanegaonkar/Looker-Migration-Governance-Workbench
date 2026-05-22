@@ -1,0 +1,217 @@
+test_id,workbook_id,test_type,comparison_source,threshold_pct,observed_variance_pct,status,owner,evidence_link
+VAL001_01,WB001,RLS evidence,Warehouse SQL,2.0,0.88,Pass,Client Reporting,evidence/wb001_01.md
+VAL001_02,WB001,Filter behavior,Tableau extract,2.0,0.98,Pass,Client Reporting,evidence/wb001_02.md
+VAL001_03,WB001,Freshness,Warehouse SQL,1.0,1.77,Fail,Client Reporting,evidence/wb001_03.md
+VAL001_04,WB001,Row count,Warehouse SQL,5.0,2.37,Pass,Client Reporting,evidence/wb001_04.md
+VAL001_05,WB001,SQL explain,Tableau extract,2.0,3.6,Fail,Client Reporting,evidence/wb001_05.md
+VAL001_06,WB001,Row count,Tableau extract,0.5,1.18,Fail,Client Reporting,evidence/wb001_06.md
+VAL002_01,WB002,SQL explain,Certified CSV,0.5,1.1,Fail,Commerce Analytics,evidence/wb002_01.md
+VAL002_02,WB002,Metric parity,Certified CSV,1.0,5.51,Fail,Commerce Analytics,evidence/wb002_02.md
+VAL002_03,WB002,SQL explain,Legacy workbook,5.0,0.87,Pass,Commerce Analytics,evidence/wb002_03.md
+VAL002_04,WB002,Row count,Legacy workbook,5.0,1.43,Pass,Commerce Analytics,evidence/wb002_04.md
+VAL002_05,WB002,Row count,Legacy workbook,0.5,1.92,Fail,Commerce Analytics,evidence/wb002_05.md
+VAL002_06,WB002,RLS evidence,Tableau extract,5.0,1.55,Pass,Commerce Analytics,evidence/wb002_06.md
+VAL003_01,WB003,Row count,Warehouse SQL,2.0,1.6,Pass,Client Reporting,evidence/wb003_01.md
+VAL003_02,WB003,SQL explain,Tableau extract,2.0,0.36,Pass,Client Reporting,evidence/wb003_02.md
+VAL003_03,WB003,Metric parity,Certified CSV,5.0,2.46,Pass,Client Reporting,evidence/wb003_03.md
+VAL003_04,WB003,Metric parity,Certified CSV,0.5,2.13,Fail,Client Reporting,evidence/wb003_04.md
+VAL003_05,WB003,Row count,Legacy workbook,5.0,1.34,Pass,Client Reporting,evidence/wb003_05.md
+VAL003_06,WB003,Freshness,Warehouse SQL,0.5,3.27,Fail,Client Reporting,evidence/wb003_06.md
+VAL004_01,WB004,Filter behavior,Tableau extract,1.0,0.98,Pass,Client Reporting,evidence/wb004_01.md
+VAL004_02,WB004,Row count,Tableau extract,5.0,0.04,Pass,Client Reporting,evidence/wb004_02.md
+VAL004_03,WB004,RLS evidence,Legacy workbook,5.0,2.08,Pass,Client Reporting,evidence/wb004_03.md
+VAL004_04,WB004,RLS evidence,Warehouse SQL,5.0,0.5,Pass,Client Reporting,evidence/wb004_04.md
+VAL004_05,WB004,Row count,Tableau extract,0.5,2.87,Fail,Client Reporting,evidence/wb004_05.md
+VAL004_06,WB004,RLS evidence,Warehouse SQL,1.0,1.03,Tolerance review,Client Reporting,evidence/wb004_06.md
+VAL005_01,WB005,SQL explain,Tableau extract,1.0,1.49,Tolerance review,Commerce Analytics,evidence/wb005_01.md
+VAL005_02,WB005,Freshness,Tableau extract,1.0,2.63,Fail,Commerce Analytics,evidence/wb005_02.md
+VAL005_03,WB005,Freshness,Certified CSV,0.5,2.14,Fail,Commerce Analytics,evidence/wb005_03.md
+VAL005_04,WB005,Freshness,Certified CSV,5.0,0.42,Pass,Commerce Analytics,evidence/wb005_04.md
+VAL005_05,WB005,Metric parity,Legacy workbook,5.0,0.25,Pass,Commerce Analytics,evidence/wb005_05.md
+VAL005_06,WB005,Metric parity,Legacy workbook,5.0,2.63,Pass,Commerce Analytics,evidence/wb005_06.md
+VAL006_01,WB006,Row count,Warehouse SQL,2.0,0.26,Pass,CRM Analytics,evidence/wb006_01.md
+VAL006_02,WB006,Freshness,Warehouse SQL,0.5,0.01,Pass,CRM Analytics,evidence/wb006_02.md
+VAL006_03,WB006,Metric parity,Certified CSV,5.0,1.09,Pass,CRM Analytics,evidence/wb006_03.md
+VAL006_04,WB006,Metric parity,Certified CSV,1.0,1.28,Tolerance review,CRM Analytics,evidence/wb006_04.md
+VAL006_05,WB006,SQL explain,Warehouse SQL,2.0,0.25,Pass,CRM Analytics,evidence/wb006_05.md
+VAL006_06,WB006,Filter behavior,Legacy workbook,1.0,0.77,Pass,CRM Analytics,evidence/wb006_06.md
+VAL007_01,WB007,Row count,Certified CSV,0.5,0.47,Pass,Media Analytics,evidence/wb007_01.md
+VAL007_02,WB007,RLS evidence,Tableau extract,2.0,2.23,Tolerance review,Media Analytics,evidence/wb007_02.md
+VAL007_03,WB007,Filter behavior,Legacy workbook,2.0,0.03,Pass,Media Analytics,evidence/wb007_03.md
+VAL007_04,WB007,Row count,Legacy workbook,5.0,0.55,Pass,Media Analytics,evidence/wb007_04.md
+VAL007_05,WB007,RLS evidence,Warehouse SQL,2.0,0.39,Pass,Media Analytics,evidence/wb007_05.md
+VAL007_06,WB007,SQL explain,Legacy workbook,1.0,0.22,Pass,Media Analytics,evidence/wb007_06.md
+VAL008_01,WB008,Metric parity,Certified CSV,0.5,1.95,Fail,Client Reporting,evidence/wb008_01.md
+VAL008_02,WB008,SQL explain,Tableau extract,1.0,2.11,Fail,Client Reporting,evidence/wb008_02.md
+VAL008_03,WB008,Filter behavior,Warehouse SQL,2.0,0.69,Pass,Client Reporting,evidence/wb008_03.md
+VAL008_04,WB008,Freshness,Certified CSV,2.0,0.17,Pass,Client Reporting,evidence/wb008_04.md
+VAL008_05,WB008,Row count,Certified CSV,2.0,3.58,Fail,Client Reporting,evidence/wb008_05.md
+VAL008_06,WB008,SQL explain,Tableau extract,2.0,1.03,Pass,Client Reporting,evidence/wb008_06.md
+VAL009_01,WB009,Metric parity,Legacy workbook,5.0,4.33,Pass,Media Analytics,evidence/wb009_01.md
+VAL009_02,WB009,Metric parity,Warehouse SQL,0.5,0.35,Pass,Media Analytics,evidence/wb009_02.md
+VAL009_03,WB009,Filter behavior,Legacy workbook,2.0,1.41,Pass,Media Analytics,evidence/wb009_03.md
+VAL009_04,WB009,Freshness,Tableau extract,2.0,1.13,Pass,Media Analytics,evidence/wb009_04.md
+VAL009_05,WB009,SQL explain,Warehouse SQL,0.5,1.25,Fail,Media Analytics,evidence/wb009_05.md
+VAL009_06,WB009,RLS evidence,Legacy workbook,5.0,1.8,Pass,Media Analytics,evidence/wb009_06.md
+VAL010_01,WB010,Metric parity,Legacy workbook,5.0,1.93,Pass,CRM Analytics,evidence/wb010_01.md
+VAL010_02,WB010,SQL explain,Tableau extract,2.0,0.86,Pass,CRM Analytics,evidence/wb010_02.md
+VAL010_03,WB010,RLS evidence,Tableau extract,0.5,0.78,Tolerance review,CRM Analytics,evidence/wb010_03.md
+VAL010_04,WB010,RLS evidence,Certified CSV,2.0,2.56,Tolerance review,CRM Analytics,evidence/wb010_04.md
+VAL010_05,WB010,Row count,Tableau extract,2.0,0.8,Pass,CRM Analytics,evidence/wb010_05.md
+VAL010_06,WB010,Freshness,Certified CSV,1.0,0.15,Pass,CRM Analytics,evidence/wb010_06.md
+VAL011_01,WB011,Row count,Warehouse SQL,1.0,1.26,Tolerance review,BI Platform,evidence/wb011_01.md
+VAL011_02,WB011,SQL explain,Warehouse SQL,5.0,1.98,Pass,BI Platform,evidence/wb011_02.md
+VAL011_03,WB011,RLS evidence,Legacy workbook,2.0,1.06,Pass,BI Platform,evidence/wb011_03.md
+VAL011_04,WB011,Row count,Legacy workbook,1.0,0.23,Pass,BI Platform,evidence/wb011_04.md
+VAL011_05,WB011,Row count,Legacy workbook,2.0,3.07,Tolerance review,BI Platform,evidence/wb011_05.md
+VAL011_06,WB011,RLS evidence,Legacy workbook,2.0,0.99,Pass,BI Platform,evidence/wb011_06.md
+VAL012_01,WB012,Metric parity,Certified CSV,1.0,1.62,Tolerance review,Media Analytics,evidence/wb012_01.md
+VAL012_02,WB012,Freshness,Legacy workbook,5.0,0.1,Pass,Media Analytics,evidence/wb012_02.md
+VAL012_03,WB012,Filter behavior,Certified CSV,0.5,0.72,Tolerance review,Media Analytics,evidence/wb012_03.md
+VAL012_04,WB012,Metric parity,Certified CSV,2.0,0.21,Pass,Media Analytics,evidence/wb012_04.md
+VAL012_05,WB012,Metric parity,Legacy workbook,2.0,0.61,Pass,Media Analytics,evidence/wb012_05.md
+VAL012_06,WB012,RLS evidence,Warehouse SQL,2.0,1.25,Pass,Media Analytics,evidence/wb012_06.md
+VAL013_01,WB013,Filter behavior,Legacy workbook,5.0,0.67,Pass,Media Analytics,evidence/wb013_01.md
+VAL013_02,WB013,Freshness,Tableau extract,5.0,1.01,Pass,Media Analytics,evidence/wb013_02.md
+VAL013_03,WB013,Row count,Tableau extract,2.0,1.89,Pass,Media Analytics,evidence/wb013_03.md
+VAL013_04,WB013,RLS evidence,Warehouse SQL,5.0,0.15,Pass,Media Analytics,evidence/wb013_04.md
+VAL013_05,WB013,Row count,Tableau extract,5.0,0.46,Pass,Media Analytics,evidence/wb013_05.md
+VAL013_06,WB013,Metric parity,Warehouse SQL,1.0,0.42,Pass,Media Analytics,evidence/wb013_06.md
+VAL014_01,WB014,Metric parity,Certified CSV,5.0,3.48,Pass,Commerce Analytics,evidence/wb014_01.md
+VAL014_02,WB014,Freshness,Warehouse SQL,0.5,0.64,Tolerance review,Commerce Analytics,evidence/wb014_02.md
+VAL014_03,WB014,Metric parity,Certified CSV,5.0,3.98,Pass,Commerce Analytics,evidence/wb014_03.md
+VAL014_04,WB014,Row count,Legacy workbook,1.0,3.64,Fail,Commerce Analytics,evidence/wb014_04.md
+VAL014_05,WB014,Freshness,Certified CSV,0.5,1.43,Fail,Commerce Analytics,evidence/wb014_05.md
+VAL014_06,WB014,RLS evidence,Warehouse SQL,5.0,0.91,Pass,Commerce Analytics,evidence/wb014_06.md
+VAL015_01,WB015,SQL explain,Tableau extract,1.0,0.4,Pass,CRM Analytics,evidence/wb015_01.md
+VAL015_02,WB015,Freshness,Legacy workbook,1.0,2.03,Fail,CRM Analytics,evidence/wb015_02.md
+VAL015_03,WB015,RLS evidence,Certified CSV,1.0,2.51,Fail,CRM Analytics,evidence/wb015_03.md
+VAL015_04,WB015,Filter behavior,Tableau extract,2.0,1.16,Pass,CRM Analytics,evidence/wb015_04.md
+VAL015_05,WB015,SQL explain,Tableau extract,1.0,1.73,Fail,CRM Analytics,evidence/wb015_05.md
+VAL015_06,WB015,Row count,Tableau extract,5.0,1.34,Pass,CRM Analytics,evidence/wb015_06.md
+VAL016_01,WB016,Row count,Legacy workbook,1.0,1.08,Tolerance review,Commerce Analytics,evidence/wb016_01.md
+VAL016_02,WB016,Filter behavior,Legacy workbook,5.0,3.16,Pass,Commerce Analytics,evidence/wb016_02.md
+VAL016_03,WB016,RLS evidence,Warehouse SQL,5.0,3.86,Pass,Commerce Analytics,evidence/wb016_03.md
+VAL016_04,WB016,SQL explain,Tableau extract,2.0,2.45,Tolerance review,Commerce Analytics,evidence/wb016_04.md
+VAL016_05,WB016,Row count,Warehouse SQL,5.0,1.52,Pass,Commerce Analytics,evidence/wb016_05.md
+VAL016_06,WB016,Metric parity,Certified CSV,0.5,2.09,Fail,Commerce Analytics,evidence/wb016_06.md
+VAL017_01,WB017,Metric parity,Warehouse SQL,5.0,3.14,Pass,Commerce Analytics,evidence/wb017_01.md
+VAL017_02,WB017,SQL explain,Certified CSV,1.0,0.12,Pass,Commerce Analytics,evidence/wb017_02.md
+VAL017_03,WB017,Filter behavior,Legacy workbook,5.0,1.33,Pass,Commerce Analytics,evidence/wb017_03.md
+VAL017_04,WB017,Freshness,Legacy workbook,2.0,0.23,Pass,Commerce Analytics,evidence/wb017_04.md
+VAL017_05,WB017,RLS evidence,Legacy workbook,0.5,1.93,Fail,Commerce Analytics,evidence/wb017_05.md
+VAL017_06,WB017,Filter behavior,Warehouse SQL,1.0,0.3,Pass,Commerce Analytics,evidence/wb017_06.md
+VAL018_01,WB018,Filter behavior,Legacy workbook,1.0,0.97,Pass,CRM Analytics,evidence/wb018_01.md
+VAL018_02,WB018,SQL explain,Legacy workbook,2.0,0.01,Pass,CRM Analytics,evidence/wb018_02.md
+VAL018_03,WB018,SQL explain,Tableau extract,1.0,1.24,Tolerance review,CRM Analytics,evidence/wb018_03.md
+VAL018_04,WB018,Freshness,Tableau extract,2.0,1.37,Pass,CRM Analytics,evidence/wb018_04.md
+VAL018_05,WB018,Metric parity,Legacy workbook,5.0,2.56,Pass,CRM Analytics,evidence/wb018_05.md
+VAL018_06,WB018,Filter behavior,Certified CSV,0.5,1.25,Fail,CRM Analytics,evidence/wb018_06.md
+VAL019_01,WB019,Filter behavior,Legacy workbook,1.0,3.91,Fail,CRM Analytics,evidence/wb019_01.md
+VAL019_02,WB019,RLS evidence,Legacy workbook,0.5,1.09,Fail,CRM Analytics,evidence/wb019_02.md
+VAL019_03,WB019,Freshness,Tableau extract,5.0,1.29,Pass,CRM Analytics,evidence/wb019_03.md
+VAL019_04,WB019,Filter behavior,Certified CSV,0.5,1.52,Fail,CRM Analytics,evidence/wb019_04.md
+VAL019_05,WB019,Row count,Legacy workbook,0.5,1.37,Fail,CRM Analytics,evidence/wb019_05.md
+VAL019_06,WB019,Filter behavior,Warehouse SQL,5.0,1.2,Pass,CRM Analytics,evidence/wb019_06.md
+VAL020_01,WB020,Row count,Tableau extract,1.0,0.09,Pass,Client Reporting,evidence/wb020_01.md
+VAL020_02,WB020,Filter behavior,Legacy workbook,0.5,2.11,Fail,Client Reporting,evidence/wb020_02.md
+VAL020_03,WB020,Row count,Legacy workbook,1.0,2.14,Fail,Client Reporting,evidence/wb020_03.md
+VAL020_04,WB020,RLS evidence,Legacy workbook,5.0,2.61,Pass,Client Reporting,evidence/wb020_04.md
+VAL020_05,WB020,SQL explain,Tableau extract,5.0,0.12,Pass,Client Reporting,evidence/wb020_05.md
+VAL020_06,WB020,Row count,Tableau extract,2.0,0.74,Pass,Client Reporting,evidence/wb020_06.md
+VAL021_01,WB021,Metric parity,Tableau extract,5.0,1.98,Pass,Media Analytics,evidence/wb021_01.md
+VAL021_02,WB021,Metric parity,Legacy workbook,1.0,2.45,Fail,Media Analytics,evidence/wb021_02.md
+VAL021_03,WB021,Row count,Certified CSV,1.0,0.72,Pass,Media Analytics,evidence/wb021_03.md
+VAL021_04,WB021,Row count,Tableau extract,2.0,1.8,Pass,Media Analytics,evidence/wb021_04.md
+VAL021_05,WB021,Filter behavior,Tableau extract,1.0,1.43,Tolerance review,Media Analytics,evidence/wb021_05.md
+VAL021_06,WB021,RLS evidence,Legacy workbook,2.0,0.35,Pass,Media Analytics,evidence/wb021_06.md
+VAL022_01,WB022,SQL explain,Certified CSV,1.0,0.45,Pass,CRM Analytics,evidence/wb022_01.md
+VAL022_02,WB022,Freshness,Warehouse SQL,2.0,0.1,Pass,CRM Analytics,evidence/wb022_02.md
+VAL022_03,WB022,Filter behavior,Tableau extract,1.0,0.7,Pass,CRM Analytics,evidence/wb022_03.md
+VAL022_04,WB022,Metric parity,Legacy workbook,2.0,3.95,Fail,CRM Analytics,evidence/wb022_04.md
+VAL022_05,WB022,Filter behavior,Tableau extract,0.5,0.39,Pass,CRM Analytics,evidence/wb022_05.md
+VAL022_06,WB022,RLS evidence,Certified CSV,5.0,4.49,Pass,CRM Analytics,evidence/wb022_06.md
+VAL023_01,WB023,Row count,Tableau extract,1.0,0.76,Pass,Commerce Analytics,evidence/wb023_01.md
+VAL023_02,WB023,Row count,Legacy workbook,0.5,1.5,Fail,Commerce Analytics,evidence/wb023_02.md
+VAL023_03,WB023,Metric parity,Warehouse SQL,2.0,3.85,Fail,Commerce Analytics,evidence/wb023_03.md
+VAL023_04,WB023,RLS evidence,Tableau extract,2.0,1.97,Pass,Commerce Analytics,evidence/wb023_04.md
+VAL023_05,WB023,Row count,Tableau extract,2.0,1.33,Pass,Commerce Analytics,evidence/wb023_05.md
+VAL023_06,WB023,Row count,Certified CSV,2.0,2.02,Tolerance review,Commerce Analytics,evidence/wb023_06.md
+VAL024_01,WB024,Metric parity,Tableau extract,0.5,2.48,Fail,CRM Analytics,evidence/wb024_01.md
+VAL024_02,WB024,Freshness,Tableau extract,5.0,1.36,Pass,CRM Analytics,evidence/wb024_02.md
+VAL024_03,WB024,Filter behavior,Warehouse SQL,1.0,1.14,Tolerance review,CRM Analytics,evidence/wb024_03.md
+VAL024_04,WB024,Filter behavior,Tableau extract,0.5,0.5,Pass,CRM Analytics,evidence/wb024_04.md
+VAL024_05,WB024,Row count,Certified CSV,1.0,1.11,Tolerance review,CRM Analytics,evidence/wb024_05.md
+VAL024_06,WB024,Metric parity,Legacy workbook,2.0,1.98,Pass,CRM Analytics,evidence/wb024_06.md
+VAL025_01,WB025,Metric parity,Legacy workbook,2.0,0.18,Pass,Media Analytics,evidence/wb025_01.md
+VAL025_02,WB025,RLS evidence,Legacy workbook,5.0,1.57,Pass,Media Analytics,evidence/wb025_02.md
+VAL025_03,WB025,Row count,Legacy workbook,2.0,0.03,Pass,Media Analytics,evidence/wb025_03.md
+VAL025_04,WB025,Filter behavior,Legacy workbook,1.0,0.33,Pass,Media Analytics,evidence/wb025_04.md
+VAL025_05,WB025,Filter behavior,Certified CSV,1.0,1.07,Tolerance review,Media Analytics,evidence/wb025_05.md
+VAL025_06,WB025,Freshness,Tableau extract,0.5,1.96,Fail,Media Analytics,evidence/wb025_06.md
+VAL026_01,WB026,Row count,Warehouse SQL,0.5,0.08,Pass,Client Reporting,evidence/wb026_01.md
+VAL026_02,WB026,Freshness,Warehouse SQL,0.5,2.24,Fail,Client Reporting,evidence/wb026_02.md
+VAL026_03,WB026,Row count,Legacy workbook,1.0,1.25,Tolerance review,Client Reporting,evidence/wb026_03.md
+VAL026_04,WB026,Metric parity,Warehouse SQL,2.0,0.21,Pass,Client Reporting,evidence/wb026_04.md
+VAL026_05,WB026,Filter behavior,Tableau extract,2.0,1.44,Pass,Client Reporting,evidence/wb026_05.md
+VAL026_06,WB026,SQL explain,Warehouse SQL,0.5,0.79,Tolerance review,Client Reporting,evidence/wb026_06.md
+VAL027_01,WB027,Filter behavior,Tableau extract,5.0,1.33,Pass,Media Analytics,evidence/wb027_01.md
+VAL027_02,WB027,Row count,Legacy workbook,1.0,1.98,Fail,Media Analytics,evidence/wb027_02.md
+VAL027_03,WB027,Row count,Warehouse SQL,2.0,0.64,Pass,Media Analytics,evidence/wb027_03.md
+VAL027_04,WB027,Metric parity,Certified CSV,5.0,1.34,Pass,Media Analytics,evidence/wb027_04.md
+VAL027_05,WB027,SQL explain,Tableau extract,0.5,4.27,Fail,Media Analytics,evidence/wb027_05.md
+VAL027_06,WB027,RLS evidence,Warehouse SQL,2.0,1.31,Pass,Media Analytics,evidence/wb027_06.md
+VAL028_01,WB028,RLS evidence,Tableau extract,0.5,1.4,Fail,Commerce Analytics,evidence/wb028_01.md
+VAL028_02,WB028,Filter behavior,Certified CSV,2.0,1.21,Pass,Commerce Analytics,evidence/wb028_02.md
+VAL028_03,WB028,RLS evidence,Tableau extract,0.5,2.65,Fail,Commerce Analytics,evidence/wb028_03.md
+VAL028_04,WB028,Metric parity,Warehouse SQL,1.0,3.83,Fail,Commerce Analytics,evidence/wb028_04.md
+VAL028_05,WB028,Filter behavior,Certified CSV,2.0,3.45,Fail,Commerce Analytics,evidence/wb028_05.md
+VAL028_06,WB028,SQL explain,Certified CSV,0.5,1.45,Fail,Commerce Analytics,evidence/wb028_06.md
+VAL029_01,WB029,Metric parity,Tableau extract,1.0,2.1,Fail,Media Analytics,evidence/wb029_01.md
+VAL029_02,WB029,Filter behavior,Certified CSV,2.0,2.44,Tolerance review,Media Analytics,evidence/wb029_02.md
+VAL029_03,WB029,Freshness,Tableau extract,2.0,2.47,Tolerance review,Media Analytics,evidence/wb029_03.md
+VAL029_04,WB029,Metric parity,Legacy workbook,1.0,3.7,Fail,Media Analytics,evidence/wb029_04.md
+VAL029_05,WB029,Metric parity,Warehouse SQL,2.0,2.62,Tolerance review,Media Analytics,evidence/wb029_05.md
+VAL029_06,WB029,Row count,Legacy workbook,0.5,1.97,Fail,Media Analytics,evidence/wb029_06.md
+VAL030_01,WB030,SQL explain,Tableau extract,0.5,1.03,Fail,BI Platform,evidence/wb030_01.md
+VAL030_02,WB030,RLS evidence,Legacy workbook,0.5,1.5,Fail,BI Platform,evidence/wb030_02.md
+VAL030_03,WB030,Filter behavior,Certified CSV,2.0,1.97,Pass,BI Platform,evidence/wb030_03.md
+VAL030_04,WB030,Metric parity,Legacy workbook,2.0,3.85,Fail,BI Platform,evidence/wb030_04.md
+VAL030_05,WB030,SQL explain,Tableau extract,1.0,3.82,Fail,BI Platform,evidence/wb030_05.md
+VAL030_06,WB030,SQL explain,Legacy workbook,2.0,1.5,Pass,BI Platform,evidence/wb030_06.md
+VAL031_01,WB031,Freshness,Tableau extract,1.0,1.02,Tolerance review,BI Platform,evidence/wb031_01.md
+VAL031_02,WB031,Metric parity,Tableau extract,0.5,0.56,Tolerance review,BI Platform,evidence/wb031_02.md
+VAL031_03,WB031,Filter behavior,Certified CSV,1.0,0.08,Pass,BI Platform,evidence/wb031_03.md
+VAL031_04,WB031,Row count,Warehouse SQL,5.0,2.97,Pass,BI Platform,evidence/wb031_04.md
+VAL031_05,WB031,Row count,Warehouse SQL,1.0,0.83,Pass,BI Platform,evidence/wb031_05.md
+VAL031_06,WB031,Freshness,Tableau extract,2.0,1.0,Pass,BI Platform,evidence/wb031_06.md
+VAL032_01,WB032,Freshness,Warehouse SQL,0.5,0.65,Tolerance review,Media Analytics,evidence/wb032_01.md
+VAL032_02,WB032,Freshness,Certified CSV,5.0,0.56,Pass,Media Analytics,evidence/wb032_02.md
+VAL032_03,WB032,Filter behavior,Tableau extract,5.0,1.47,Pass,Media Analytics,evidence/wb032_03.md
+VAL032_04,WB032,Freshness,Legacy workbook,1.0,2.12,Fail,Media Analytics,evidence/wb032_04.md
+VAL032_05,WB032,Row count,Warehouse SQL,1.0,2.48,Fail,Media Analytics,evidence/wb032_05.md
+VAL032_06,WB032,Row count,Warehouse SQL,1.0,1.64,Tolerance review,Media Analytics,evidence/wb032_06.md
+VAL033_01,WB033,Row count,Warehouse SQL,5.0,1.84,Pass,Client Reporting,evidence/wb033_01.md
+VAL033_02,WB033,Metric parity,Tableau extract,1.0,1.76,Fail,Client Reporting,evidence/wb033_02.md
+VAL033_03,WB033,Row count,Tableau extract,5.0,0.57,Pass,Client Reporting,evidence/wb033_03.md
+VAL033_04,WB033,Metric parity,Tableau extract,1.0,1.17,Tolerance review,Client Reporting,evidence/wb033_04.md
+VAL033_05,WB033,Metric parity,Warehouse SQL,2.0,1.04,Pass,Client Reporting,evidence/wb033_05.md
+VAL033_06,WB033,Filter behavior,Legacy workbook,0.5,1.04,Fail,Client Reporting,evidence/wb033_06.md
+VAL034_01,WB034,Freshness,Certified CSV,0.5,1.48,Fail,BI Platform,evidence/wb034_01.md
+VAL034_02,WB034,RLS evidence,Legacy workbook,2.0,0.4,Pass,BI Platform,evidence/wb034_02.md
+VAL034_03,WB034,Row count,Warehouse SQL,2.0,1.17,Pass,BI Platform,evidence/wb034_03.md
+VAL034_04,WB034,Metric parity,Legacy workbook,5.0,3.9,Pass,BI Platform,evidence/wb034_04.md
+VAL034_05,WB034,Freshness,Warehouse SQL,0.5,0.7,Tolerance review,BI Platform,evidence/wb034_05.md
+VAL034_06,WB034,RLS evidence,Legacy workbook,0.5,0.68,Tolerance review,BI Platform,evidence/wb034_06.md
+VAL035_01,WB035,Metric parity,Certified CSV,0.5,2.64,Fail,Client Reporting,evidence/wb035_01.md
+VAL035_02,WB035,Freshness,Legacy workbook,1.0,3.5,Fail,Client Reporting,evidence/wb035_02.md
+VAL035_03,WB035,Filter behavior,Warehouse SQL,1.0,2.34,Fail,Client Reporting,evidence/wb035_03.md
+VAL035_04,WB035,SQL explain,Warehouse SQL,2.0,0.02,Pass,Client Reporting,evidence/wb035_04.md
+VAL035_05,WB035,Metric parity,Certified CSV,0.5,0.95,Fail,Client Reporting,evidence/wb035_05.md
+VAL035_06,WB035,Filter behavior,Certified CSV,5.0,2.07,Pass,Client Reporting,evidence/wb035_06.md
+VAL036_01,WB036,SQL explain,Warehouse SQL,1.0,2.15,Fail,Commerce Analytics,evidence/wb036_01.md
+VAL036_02,WB036,SQL explain,Warehouse SQL,0.5,3.22,Fail,Commerce Analytics,evidence/wb036_02.md
+VAL036_03,WB036,RLS evidence,Legacy workbook,0.5,3.24,Fail,Commerce Analytics,evidence/wb036_03.md
+VAL036_04,WB036,RLS evidence,Certified CSV,2.0,0.17,Pass,Commerce Analytics,evidence/wb036_04.md
+VAL036_05,WB036,Row count,Tableau extract,0.5,0.64,Tolerance review,Commerce Analytics,evidence/wb036_05.md
+VAL036_06,WB036,Filter behavior,Certified CSV,5.0,1.07,Pass,Commerce Analytics,evidence/wb036_06.md

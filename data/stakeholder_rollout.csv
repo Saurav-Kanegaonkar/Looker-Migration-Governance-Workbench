@@ -1,0 +1,37 @@
+workbook_id,training_status,adoption_status,open_incidents,stakeholder_sentiment,cutover_readiness,last_enablement_date
+WB001,Not started,Ready,4,Mixed,Ready,2026-04-07
+WB002,Scheduled,Pilot,5,Positive,Needs owner signoff,2026-03-22
+WB003,Complete,Ready,3,Positive,Ready,2026-01-25
+WB004,Complete,At risk,8,Concerned,Needs owner signoff,2026-04-16
+WB005,Scheduled,Ready,5,Mixed,Needs owner signoff,2026-03-12
+WB006,Scheduled,Ready,3,Concerned,Ready,2026-04-15
+WB007,Scheduled,Ready,3,Positive,Needs owner signoff,2026-05-12
+WB008,Scheduled,Pilot,4,Concerned,Needs owner signoff,2026-05-03
+WB009,Scheduled,Pilot,4,Positive,Ready,2026-04-24
+WB010,Scheduled,Ready,5,Positive,Needs owner signoff,2026-02-05
+WB011,Complete,Ready,7,Mixed,Ready,2026-04-17
+WB012,Scheduled,Pilot,5,Positive,Needs owner signoff,2026-03-31
+WB013,Scheduled,Pilot,8,Positive,Ready,2026-01-24
+WB014,Complete,Pilot,6,Mixed,Needs owner signoff,2026-03-18
+WB015,Complete,Pilot,5,Positive,Needs owner signoff,2026-01-18
+WB016,Scheduled,Pilot,7,Positive,Blocked,2026-04-11
+WB017,Not started,At risk,7,Positive,Needs owner signoff,2026-03-10
+WB018,Scheduled,Pilot,2,Positive,Ready,2026-03-21
+WB019,Not started,Ready,2,Mixed,Ready,2026-03-12
+WB020,Complete,Pilot,5,Concerned,Ready,2026-03-31
+WB021,Not started,Ready,2,Positive,Needs owner signoff,2026-02-17
+WB022,Complete,Ready,7,Concerned,Needs owner signoff,2026-02-25
+WB023,Complete,At risk,4,Positive,Blocked,2026-01-21
+WB024,Scheduled,Ready,3,Positive,Blocked,2026-02-07
+WB025,Not started,Pilot,4,Positive,Needs owner signoff,2026-04-30
+WB026,Scheduled,Ready,5,Mixed,Needs owner signoff,2026-02-22
+WB027,Scheduled,Ready,0,Mixed,Ready,2026-03-04
+WB028,Complete,Pilot,3,Concerned,Needs owner signoff,2026-03-01
+WB029,Scheduled,At risk,5,Mixed,Blocked,2026-04-07
+WB030,Scheduled,Ready,3,Positive,Ready,2026-01-29
+WB031,Not started,At risk,2,Concerned,Ready,2026-04-20
+WB032,Scheduled,Ready,7,Mixed,Ready,2026-03-06
+WB033,Complete,Ready,1,Mixed,Needs owner signoff,2026-03-01
+WB034,Scheduled,Ready,5,Mixed,Ready,2026-03-29
+WB035,Complete,Ready,3,Mixed,Needs owner signoff,2026-04-05
+WB036,Scheduled,Pilot,6,Mixed,Needs owner signoff,2026-03-30

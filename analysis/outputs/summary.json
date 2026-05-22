@@ -1,0 +1,42 @@
+{
+  "workbooks": 36,
+  "metrics": 224,
+  "validation_tests": 216,
+  "tier_1_workbooks": 10,
+  "ready_for_cutover": 1,
+  "blocker_remediation": 20,
+  "avg_parity_pass_rate": 56.5,
+  "avg_load_improvement_pct": 30.6,
+  "top_domain": "Digital Shelf",
+  "top_priority_workbook": {
+    "workbook_id": "WB029",
+    "workbook_name": "Digital Shelf Digital shelf availability",
+    "domain": "Digital Shelf",
+    "criticality": "Tier 2",
+    "migration_lane": "Wave 2",
+    "priority_score": 184.9,
+    "readiness_score": 0,
+    "monthly_views": "584",
+    "metric_count": 6,
+    "parity_pass_rate": 0.0,
+    "certified_metric_rate": 33.3,
+    "load_improvement_pct": 30.5,
+    "cutover_lane": "Blocker remediation",
+    "next_action": "Resolve failed parity tests with metric owner and warehouse SQL evidence"
+  },
+  "highest_semantic_risk": {
+    "workbook_id": "WB029",
+    "explore_name": "digital_shelf",
+    "primary_view": "digital_shelf_fact",
+    "join_pattern": "fanout risk review",
+    "join_count": "7",
+    "pdt_strategy": "PDT",
+    "datagroup": "commerce_hourly",
+    "cache_policy": "persist_with datagroup",
+    "liquid_parameter": "channel_grouping",
+    "git_review_status": "Open comments",
+    "open_review_comments": "10",
+    "style_guide_findings": "0",
+    "semantic_risk_score": 126.0
+  }
+}

@@ -1,7 +1,7 @@
 # Status
 
-- Project: Looker Migration Governance Workbench
-- GitHub: https://github.com/Saurav-Kanegaonkar/Looker-Migration-Governance-Workbench
-- Status: complete
-- Resume Link Ready: Yes
-- Last update: Created to locked pipeline standards with multiple data sources, analysis artifacts, scripts, screenshot, and distinct artifact framing.
+- Status: upgraded through the Portfolio Artifact Upgrade Workflow
+- Artifact type: Tableau-to-Looker migration governance workbench
+- Surfaces: migration portfolio, LookML governance, validation and rollout
+- Data: synthetic, generated with fixed seed and documented assumptions
+- Last validation: `npm run generate`, `npm run analyze`

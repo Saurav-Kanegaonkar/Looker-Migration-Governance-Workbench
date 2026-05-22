@@ -1,0 +1,225 @@
+metric_id,workbook_id,metric_name,metric_type,tableau_formula,lookml_sql,logic_complexity,definition_owner,parity_status,certification_status
+MET001_01,WB001,Margin Rate,dimension_group,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",High,Client Reporting,Pass,Owner review
+MET001_02,WB001,ROAS,filtered_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,Client Reporting,Pass,Certified
+MET001_03,WB001,Repeat Purchase Rate,filtered_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Client Reporting,Pass,Owner review
+MET001_04,WB001,Digital Shelf Availability,measure,AVG([In Stock Rate]),avg(${in_stock_rate}),High,Client Reporting,Tolerance review,Draft
+MET001_05,WB001,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,Client Reporting,Pass,Owner review
+MET002_01,WB002,Qualified Visit Rate,parameterized_measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",High,Commerce Analytics,Pass,Draft
+MET002_02,WB002,Margin Rate,parameterized_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Low,Commerce Analytics,Pass,Draft
+MET002_03,WB002,Revenue,dimension_group,sum(order_revenue),sum(${order_revenue}),High,Commerce Analytics,Tolerance review,Owner review
+MET002_04,WB002,Digital Shelf Availability,filtered_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,Commerce Analytics,Tolerance review,Owner review
+MET003_01,WB003,Email Revenue Per Send,filtered_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Client Reporting,Pass,Draft
+MET003_02,WB003,ROAS,measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",High,Client Reporting,Pass,Certified
+MET003_03,WB003,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Low,Client Reporting,Pass,Draft
+MET003_04,WB003,Repeat Purchase Rate,dimension_group,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",High,Client Reporting,Pass,Owner review
+MET003_05,WB003,Margin Rate,measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Client Reporting,Pass,Owner review
+MET004_01,WB004,Revenue,filtered_measure,sum(order_revenue),sum(${order_revenue}),High,Client Reporting,Fail,Owner review
+MET004_02,WB004,Digital Shelf Availability,filtered_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Low,Client Reporting,Fail,Owner review
+MET004_03,WB004,Margin Rate,dimension_group,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Client Reporting,Tolerance review,Certified
+MET004_04,WB004,ROAS,dimension_group,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,Client Reporting,Pass,Owner review
+MET004_05,WB004,Conversion Rate,measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,Client Reporting,Pass,Certified
+MET004_06,WB004,Email Revenue Per Send,filtered_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Low,Client Reporting,Tolerance review,Owner review
+MET004_07,WB004,Qualified Visit Rate,parameterized_measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,Client Reporting,Pass,Owner review
+MET005_01,WB005,Revenue,filtered_measure,sum(order_revenue),sum(${order_revenue}),High,Commerce Analytics,Pass,Certified
+MET005_02,WB005,Repeat Purchase Rate,parameterized_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Low,Commerce Analytics,Pass,Certified
+MET005_03,WB005,Digital Shelf Availability,measure,AVG([In Stock Rate]),avg(${in_stock_rate}),High,Commerce Analytics,Pass,Owner review
+MET005_04,WB005,Email Revenue Per Send,filtered_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",High,Commerce Analytics,Pass,Certified
+MET005_05,WB005,Qualified Visit Rate,measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Low,Commerce Analytics,Fail,Owner review
+MET005_06,WB005,Margin Rate,measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",High,Commerce Analytics,Pass,Owner review
+MET005_07,WB005,ROAS,measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Low,Commerce Analytics,Pass,Owner review
+MET005_08,WB005,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Low,Commerce Analytics,Tolerance review,Certified
+MET006_01,WB006,Digital Shelf Availability,filtered_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Low,CRM Analytics,Pass,Certified
+MET006_02,WB006,Revenue,dimension_group,sum(order_revenue),sum(${order_revenue}),Low,CRM Analytics,Pass,Owner review
+MET006_03,WB006,ROAS,measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",High,CRM Analytics,Pass,Owner review
+MET006_04,WB006,Conversion Rate,dimension_group,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,CRM Analytics,Pass,Draft
+MET006_05,WB006,Email Revenue Per Send,measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,CRM Analytics,Fail,Draft
+MET006_06,WB006,Repeat Purchase Rate,measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,CRM Analytics,Pass,Certified
+MET006_07,WB006,Margin Rate,measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",High,CRM Analytics,Fail,Draft
+MET006_08,WB006,Qualified Visit Rate,dimension_group,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Low,CRM Analytics,Tolerance review,Owner review
+MET007_01,WB007,Digital Shelf Availability,measure,AVG([In Stock Rate]),avg(${in_stock_rate}),High,Media Analytics,Pass,Draft
+MET007_02,WB007,Qualified Visit Rate,dimension_group,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,Media Analytics,Pass,Certified
+MET007_03,WB007,ROAS,dimension_group,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Low,Media Analytics,Pass,Draft
+MET007_04,WB007,Conversion Rate,measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",High,Media Analytics,Pass,Owner review
+MET007_05,WB007,Repeat Purchase Rate,filtered_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Low,Media Analytics,Fail,Owner review
+MET008_01,WB008,Qualified Visit Rate,parameterized_measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,Client Reporting,Pass,Draft
+MET008_02,WB008,Conversion Rate,parameterized_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",High,Client Reporting,Pass,Owner review
+MET008_03,WB008,Email Revenue Per Send,parameterized_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Client Reporting,Pass,Draft
+MET008_04,WB008,Revenue,filtered_measure,sum(order_revenue),sum(${order_revenue}),Low,Client Reporting,Pass,Owner review
+MET008_05,WB008,Repeat Purchase Rate,parameterized_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",High,Client Reporting,Pass,Certified
+MET008_06,WB008,ROAS,measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,Client Reporting,Tolerance review,Draft
+MET009_01,WB009,Revenue,dimension_group,sum(order_revenue),sum(${order_revenue}),High,Media Analytics,Pass,Draft
+MET009_02,WB009,Qualified Visit Rate,measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Low,Media Analytics,Tolerance review,Certified
+MET009_03,WB009,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",High,Media Analytics,Fail,Owner review
+MET009_04,WB009,ROAS,dimension_group,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Low,Media Analytics,Fail,Certified
+MET009_05,WB009,Digital Shelf Availability,filtered_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),High,Media Analytics,Pass,Certified
+MET009_06,WB009,Email Revenue Per Send,parameterized_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Media Analytics,Pass,Owner review
+MET009_07,WB009,Margin Rate,filtered_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",High,Media Analytics,Pass,Owner review
+MET009_08,WB009,Repeat Purchase Rate,measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Low,Media Analytics,Pass,Owner review
+MET010_01,WB010,ROAS,parameterized_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,CRM Analytics,Pass,Certified
+MET010_02,WB010,Revenue,filtered_measure,sum(order_revenue),sum(${order_revenue}),Low,CRM Analytics,Pass,Owner review
+MET010_03,WB010,Qualified Visit Rate,parameterized_measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,CRM Analytics,Tolerance review,Owner review
+MET010_04,WB010,Email Revenue Per Send,measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,CRM Analytics,Pass,Certified
+MET010_05,WB010,Margin Rate,dimension_group,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,CRM Analytics,Pass,Owner review
+MET010_06,WB010,Conversion Rate,parameterized_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,CRM Analytics,Pass,Owner review
+MET010_07,WB010,Repeat Purchase Rate,dimension_group,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Low,CRM Analytics,Pass,Owner review
+MET010_08,WB010,Digital Shelf Availability,measure,AVG([In Stock Rate]),avg(${in_stock_rate}),High,CRM Analytics,Tolerance review,Certified
+MET011_01,WB011,Digital Shelf Availability,filtered_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,BI Platform,Pass,Certified
+MET011_02,WB011,Conversion Rate,dimension_group,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,BI Platform,Tolerance review,Owner review
+MET011_03,WB011,Email Revenue Per Send,parameterized_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",High,BI Platform,Pass,Owner review
+MET011_04,WB011,Qualified Visit Rate,measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,BI Platform,Pass,Owner review
+MET011_05,WB011,ROAS,filtered_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,BI Platform,Pass,Certified
+MET011_06,WB011,Repeat Purchase Rate,parameterized_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",High,BI Platform,Pass,Certified
+MET011_07,WB011,Revenue,filtered_measure,sum(order_revenue),sum(${order_revenue}),High,BI Platform,Pass,Draft
+MET012_01,WB012,ROAS,measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,Media Analytics,Pass,Owner review
+MET012_02,WB012,Revenue,measure,sum(order_revenue),sum(${order_revenue}),Medium,Media Analytics,Pass,Owner review
+MET012_03,WB012,Repeat Purchase Rate,measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Media Analytics,Fail,Certified
+MET012_04,WB012,Digital Shelf Availability,filtered_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,Media Analytics,Tolerance review,Certified
+MET012_05,WB012,Margin Rate,filtered_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Low,Media Analytics,Tolerance review,Certified
+MET012_06,WB012,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,Media Analytics,Pass,Certified
+MET012_07,WB012,Email Revenue Per Send,dimension_group,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Media Analytics,Pass,Draft
+MET013_01,WB013,Qualified Visit Rate,filtered_measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",High,Media Analytics,Tolerance review,Owner review
+MET013_02,WB013,ROAS,filtered_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,Media Analytics,Pass,Draft
+MET013_03,WB013,Email Revenue Per Send,dimension_group,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",High,Media Analytics,Tolerance review,Owner review
+MET013_04,WB013,Repeat Purchase Rate,dimension_group,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Media Analytics,Pass,Owner review
+MET014_01,WB014,Repeat Purchase Rate,dimension_group,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Commerce Analytics,Fail,Draft
+MET014_02,WB014,ROAS,dimension_group,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",High,Commerce Analytics,Tolerance review,Owner review
+MET014_03,WB014,Revenue,parameterized_measure,sum(order_revenue),sum(${order_revenue}),Medium,Commerce Analytics,Pass,Draft
+MET014_04,WB014,Email Revenue Per Send,parameterized_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Commerce Analytics,Pass,Owner review
+MET014_05,WB014,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",High,Commerce Analytics,Pass,Certified
+MET014_06,WB014,Margin Rate,parameterized_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Commerce Analytics,Tolerance review,Certified
+MET014_07,WB014,Qualified Visit Rate,dimension_group,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Low,Commerce Analytics,Pass,Draft
+MET015_01,WB015,Repeat Purchase Rate,filtered_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,CRM Analytics,Fail,Certified
+MET015_02,WB015,Email Revenue Per Send,parameterized_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,CRM Analytics,Pass,Draft
+MET015_03,WB015,Margin Rate,filtered_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",High,CRM Analytics,Tolerance review,Certified
+MET015_04,WB015,Qualified Visit Rate,parameterized_measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",High,CRM Analytics,Pass,Owner review
+MET015_05,WB015,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",High,CRM Analytics,Pass,Draft
+MET015_06,WB015,ROAS,dimension_group,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,CRM Analytics,Pass,Certified
+MET016_01,WB016,Email Revenue Per Send,measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Commerce Analytics,Tolerance review,Owner review
+MET016_02,WB016,Repeat Purchase Rate,measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Commerce Analytics,Pass,Certified
+MET016_03,WB016,Qualified Visit Rate,dimension_group,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,Commerce Analytics,Pass,Certified
+MET016_04,WB016,Digital Shelf Availability,dimension_group,AVG([In Stock Rate]),avg(${in_stock_rate}),High,Commerce Analytics,Pass,Owner review
+MET016_05,WB016,Margin Rate,parameterized_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Commerce Analytics,Fail,Draft
+MET016_06,WB016,Conversion Rate,parameterized_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,Commerce Analytics,Pass,Owner review
+MET016_07,WB016,Revenue,filtered_measure,sum(order_revenue),sum(${order_revenue}),Medium,Commerce Analytics,Tolerance review,Owner review
+MET016_08,WB016,ROAS,dimension_group,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,Commerce Analytics,Tolerance review,Owner review
+MET017_01,WB017,Repeat Purchase Rate,parameterized_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",High,Commerce Analytics,Pass,Owner review
+MET017_02,WB017,Conversion Rate,dimension_group,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Low,Commerce Analytics,Pass,Certified
+MET017_03,WB017,Email Revenue Per Send,filtered_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Low,Commerce Analytics,Pass,Certified
+MET017_04,WB017,ROAS,filtered_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,Commerce Analytics,Pass,Certified
+MET017_05,WB017,Qualified Visit Rate,measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,Commerce Analytics,Pass,Certified
+MET018_01,WB018,Margin Rate,measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,CRM Analytics,Tolerance review,Certified
+MET018_02,WB018,Repeat Purchase Rate,measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,CRM Analytics,Pass,Owner review
+MET018_03,WB018,Digital Shelf Availability,parameterized_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,CRM Analytics,Pass,Owner review
+MET018_04,WB018,ROAS,measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,CRM Analytics,Fail,Draft
+MET018_05,WB018,Email Revenue Per Send,parameterized_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",High,CRM Analytics,Pass,Certified
+MET018_06,WB018,Qualified Visit Rate,filtered_measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",High,CRM Analytics,Tolerance review,Draft
+MET019_01,WB019,Qualified Visit Rate,dimension_group,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,CRM Analytics,Fail,Owner review
+MET019_02,WB019,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Low,CRM Analytics,Pass,Certified
+MET019_03,WB019,Repeat Purchase Rate,dimension_group,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,CRM Analytics,Pass,Certified
+MET019_04,WB019,Digital Shelf Availability,filtered_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,CRM Analytics,Tolerance review,Certified
+MET019_05,WB019,ROAS,dimension_group,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,CRM Analytics,Tolerance review,Owner review
+MET019_06,WB019,Email Revenue Per Send,parameterized_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,CRM Analytics,Fail,Draft
+MET020_01,WB020,Email Revenue Per Send,filtered_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Client Reporting,Fail,Owner review
+MET020_02,WB020,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,Client Reporting,Tolerance review,Certified
+MET020_03,WB020,ROAS,filtered_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,Client Reporting,Pass,Draft
+MET020_04,WB020,Repeat Purchase Rate,filtered_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Client Reporting,Tolerance review,Certified
+MET020_05,WB020,Revenue,dimension_group,sum(order_revenue),sum(${order_revenue}),Medium,Client Reporting,Pass,Owner review
+MET021_01,WB021,Margin Rate,parameterized_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Media Analytics,Fail,Draft
+MET021_02,WB021,Digital Shelf Availability,measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,Media Analytics,Pass,Owner review
+MET021_03,WB021,Email Revenue Per Send,filtered_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Media Analytics,Tolerance review,Draft
+MET021_04,WB021,Conversion Rate,parameterized_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",High,Media Analytics,Pass,Draft
+MET022_01,WB022,Margin Rate,dimension_group,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,CRM Analytics,Pass,Certified
+MET022_02,WB022,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Low,CRM Analytics,Tolerance review,Owner review
+MET022_03,WB022,Digital Shelf Availability,parameterized_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,CRM Analytics,Pass,Certified
+MET022_04,WB022,ROAS,filtered_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,CRM Analytics,Tolerance review,Certified
+MET022_05,WB022,Repeat Purchase Rate,dimension_group,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Low,CRM Analytics,Fail,Owner review
+MET022_06,WB022,Revenue,measure,sum(order_revenue),sum(${order_revenue}),Medium,CRM Analytics,Tolerance review,Certified
+MET022_07,WB022,Qualified Visit Rate,dimension_group,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,CRM Analytics,Fail,Certified
+MET023_01,WB023,Revenue,parameterized_measure,sum(order_revenue),sum(${order_revenue}),Low,Commerce Analytics,Fail,Owner review
+MET023_02,WB023,Margin Rate,filtered_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Low,Commerce Analytics,Fail,Certified
+MET023_03,WB023,Email Revenue Per Send,parameterized_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",High,Commerce Analytics,Fail,Owner review
+MET023_04,WB023,Repeat Purchase Rate,measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Commerce Analytics,Fail,Owner review
+MET023_05,WB023,Conversion Rate,parameterized_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,Commerce Analytics,Tolerance review,Certified
+MET023_06,WB023,Qualified Visit Rate,dimension_group,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,Commerce Analytics,Pass,Certified
+MET024_01,WB024,Email Revenue Per Send,filtered_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,CRM Analytics,Pass,Certified
+MET024_02,WB024,Repeat Purchase Rate,dimension_group,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",High,CRM Analytics,Pass,Draft
+MET024_03,WB024,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Low,CRM Analytics,Tolerance review,Owner review
+MET024_04,WB024,ROAS,dimension_group,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",High,CRM Analytics,Tolerance review,Owner review
+MET024_05,WB024,Revenue,dimension_group,sum(order_revenue),sum(${order_revenue}),High,CRM Analytics,Pass,Certified
+MET024_06,WB024,Digital Shelf Availability,filtered_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,CRM Analytics,Tolerance review,Draft
+MET025_01,WB025,Repeat Purchase Rate,filtered_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Media Analytics,Pass,Certified
+MET025_02,WB025,ROAS,measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,Media Analytics,Tolerance review,Certified
+MET025_03,WB025,Qualified Visit Rate,measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",High,Media Analytics,Fail,Owner review
+MET025_04,WB025,Revenue,parameterized_measure,sum(order_revenue),sum(${order_revenue}),Medium,Media Analytics,Tolerance review,Certified
+MET025_05,WB025,Digital Shelf Availability,dimension_group,AVG([In Stock Rate]),avg(${in_stock_rate}),Low,Media Analytics,Pass,Certified
+MET025_06,WB025,Margin Rate,filtered_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Media Analytics,Fail,Owner review
+MET025_07,WB025,Email Revenue Per Send,parameterized_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Media Analytics,Pass,Owner review
+MET025_08,WB025,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",High,Media Analytics,Pass,Certified
+MET026_01,WB026,Margin Rate,parameterized_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Low,Client Reporting,Pass,Certified
+MET026_02,WB026,Email Revenue Per Send,dimension_group,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",High,Client Reporting,Pass,Certified
+MET026_03,WB026,Repeat Purchase Rate,filtered_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Client Reporting,Pass,Certified
+MET026_04,WB026,Digital Shelf Availability,filtered_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),High,Client Reporting,Pass,Draft
+MET026_05,WB026,Qualified Visit Rate,dimension_group,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",High,Client Reporting,Tolerance review,Certified
+MET026_06,WB026,Revenue,filtered_measure,sum(order_revenue),sum(${order_revenue}),High,Client Reporting,Pass,Certified
+MET027_01,WB027,Margin Rate,parameterized_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Media Analytics,Tolerance review,Draft
+MET027_02,WB027,Repeat Purchase Rate,dimension_group,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Media Analytics,Pass,Draft
+MET027_03,WB027,Email Revenue Per Send,measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",High,Media Analytics,Pass,Owner review
+MET027_04,WB027,Revenue,dimension_group,sum(order_revenue),sum(${order_revenue}),High,Media Analytics,Tolerance review,Draft
+MET027_05,WB027,ROAS,dimension_group,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",High,Media Analytics,Tolerance review,Certified
+MET027_06,WB027,Qualified Visit Rate,filtered_measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",High,Media Analytics,Pass,Certified
+MET027_07,WB027,Digital Shelf Availability,measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,Media Analytics,Pass,Owner review
+MET028_01,WB028,Margin Rate,measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Commerce Analytics,Pass,Owner review
+MET028_02,WB028,Email Revenue Per Send,measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Commerce Analytics,Pass,Owner review
+MET028_03,WB028,Revenue,dimension_group,sum(order_revenue),sum(${order_revenue}),Medium,Commerce Analytics,Tolerance review,Certified
+MET028_04,WB028,Digital Shelf Availability,parameterized_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,Commerce Analytics,Pass,Draft
+MET028_05,WB028,Conversion Rate,dimension_group,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,Commerce Analytics,Pass,Certified
+MET028_06,WB028,Repeat Purchase Rate,parameterized_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Commerce Analytics,Fail,Certified
+MET029_01,WB029,Revenue,parameterized_measure,sum(order_revenue),sum(${order_revenue}),High,Media Analytics,Pass,Draft
+MET029_02,WB029,Digital Shelf Availability,parameterized_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,Media Analytics,Fail,Certified
+MET029_03,WB029,ROAS,measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",High,Media Analytics,Tolerance review,Certified
+MET029_04,WB029,Margin Rate,measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Media Analytics,Pass,Draft
+MET029_05,WB029,Repeat Purchase Rate,filtered_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",High,Media Analytics,Fail,Draft
+MET029_06,WB029,Email Revenue Per Send,parameterized_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Media Analytics,Tolerance review,Draft
+MET030_01,WB030,Conversion Rate,dimension_group,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",High,BI Platform,Tolerance review,Draft
+MET030_02,WB030,Revenue,measure,sum(order_revenue),sum(${order_revenue}),Medium,BI Platform,Pass,Certified
+MET030_03,WB030,Email Revenue Per Send,dimension_group,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,BI Platform,Tolerance review,Owner review
+MET030_04,WB030,Margin Rate,filtered_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,BI Platform,Pass,Owner review
+MET030_05,WB030,ROAS,parameterized_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Low,BI Platform,Pass,Draft
+MET030_06,WB030,Repeat Purchase Rate,measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",High,BI Platform,Pass,Certified
+MET030_07,WB030,Digital Shelf Availability,parameterized_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,BI Platform,Tolerance review,Draft
+MET031_01,WB031,ROAS,filtered_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,BI Platform,Pass,Certified
+MET031_02,WB031,Digital Shelf Availability,measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,BI Platform,Pass,Owner review
+MET031_03,WB031,Qualified Visit Rate,measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,BI Platform,Tolerance review,Certified
+MET031_04,WB031,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,BI Platform,Pass,Owner review
+MET031_05,WB031,Repeat Purchase Rate,parameterized_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,BI Platform,Fail,Certified
+MET031_06,WB031,Email Revenue Per Send,dimension_group,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,BI Platform,Pass,Certified
+MET032_01,WB032,Conversion Rate,dimension_group,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Low,Media Analytics,Pass,Owner review
+MET032_02,WB032,Margin Rate,dimension_group,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Media Analytics,Pass,Owner review
+MET032_03,WB032,Digital Shelf Availability,dimension_group,AVG([In Stock Rate]),avg(${in_stock_rate}),Low,Media Analytics,Pass,Certified
+MET032_04,WB032,ROAS,filtered_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Low,Media Analytics,Fail,Certified
+MET032_05,WB032,Repeat Purchase Rate,measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",High,Media Analytics,Fail,Draft
+MET033_01,WB033,Margin Rate,measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",Medium,Client Reporting,Tolerance review,Owner review
+MET033_02,WB033,Conversion Rate,measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Medium,Client Reporting,Tolerance review,Certified
+MET033_03,WB033,Revenue,dimension_group,sum(order_revenue),sum(${order_revenue}),High,Client Reporting,Pass,Certified
+MET033_04,WB033,Digital Shelf Availability,measure,AVG([In Stock Rate]),avg(${in_stock_rate}),High,Client Reporting,Pass,Owner review
+MET033_05,WB033,Repeat Purchase Rate,filtered_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,Client Reporting,Pass,Certified
+MET033_06,WB033,Email Revenue Per Send,filtered_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Low,Client Reporting,Pass,Certified
+MET033_07,WB033,ROAS,filtered_measure,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Medium,Client Reporting,Pass,Draft
+MET033_08,WB033,Qualified Visit Rate,parameterized_measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,Client Reporting,Pass,Certified
+MET034_01,WB034,Email Revenue Per Send,filtered_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,BI Platform,Pass,Certified
+MET034_02,WB034,Repeat Purchase Rate,measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",Medium,BI Platform,Tolerance review,Owner review
+MET034_03,WB034,Conversion Rate,dimension_group,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Low,BI Platform,Pass,Draft
+MET034_04,WB034,Digital Shelf Availability,dimension_group,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,BI Platform,Fail,Owner review
+MET034_05,WB034,Revenue,filtered_measure,sum(order_revenue),sum(${order_revenue}),Low,BI Platform,Tolerance review,Certified
+MET035_01,WB035,Conversion Rate,filtered_measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",High,Client Reporting,Pass,Owner review
+MET035_02,WB035,Margin Rate,filtered_measure,SUM([Gross Margin]) / SUM([Net Sales]),"sum(${gross_margin}) / nullif(sum(${net_sales}),0)",High,Client Reporting,Fail,Owner review
+MET035_03,WB035,Qualified Visit Rate,measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",Medium,Client Reporting,Pass,Certified
+MET035_04,WB035,Email Revenue Per Send,filtered_measure,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",Medium,Client Reporting,Pass,Owner review
+MET035_05,WB035,Digital Shelf Availability,parameterized_measure,AVG([In Stock Rate]),avg(${in_stock_rate}),Medium,Client Reporting,Pass,Owner review
+MET035_06,WB035,Repeat Purchase Rate,parameterized_measure,SUM([Repeat Customers]) / SUM([Customers]),"sum(${repeat_customers}) / nullif(sum(${customers}),0)",High,Client Reporting,Tolerance review,Certified
+MET035_07,WB035,ROAS,dimension_group,SUM([Media Revenue]) / SUM([Media Spend]),"sum(${media_revenue}) / nullif(sum(${media_spend}),0)",Low,Client Reporting,Pass,Owner review
+MET035_08,WB035,Revenue,measure,sum(order_revenue),sum(${order_revenue}),High,Client Reporting,Tolerance review,Certified
+MET036_01,WB036,Conversion Rate,measure,SUM([Orders]) / SUM([Sessions]),"sum(${orders}) / nullif(sum(${sessions}),0)",Low,Commerce Analytics,Pass,Certified
+MET036_02,WB036,Revenue,filtered_measure,sum(order_revenue),sum(${order_revenue}),Low,Commerce Analytics,Pass,Owner review
+MET036_03,WB036,Qualified Visit Rate,filtered_measure,SUM([Qualified Visits]) / SUM([Visits]),"sum(${qualified_visits}) / nullif(sum(${visits}),0)",High,Commerce Analytics,Pass,Owner review
+MET036_04,WB036,Email Revenue Per Send,dimension_group,SUM([Email Revenue]) / SUM([Sends]),"sum(${email_revenue}) / nullif(sum(${sends}),0)",High,Commerce Analytics,Pass,Certified
